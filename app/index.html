@@ -1,15 +1,26 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<!-- bower:css -->
 	<!-- endbower -->
+	<style>
+		html,body {margin: 0; padding: 0; height: 100%; width: 100%;}
+	</style>	
 </head>
 <body>
-  <div>aaaa</div>
+	<!-- Import element -->
+	<link rel="import" href="bower_components/polymer/polymer.html">
+	<link rel="import" href="bower_components/paper-button/paper-button.html">
+	<link rel="import" href="components/my-calculator/my-calculator.html">
+
+  <!-- Use element -->
+  <my-calculator display="777"></my-calculator>
+
 	<!-- bower:js -->
 	<script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
-	<!-- endbower -->
+	<script src="bower_components/web-animations-js/web-animations.min.js"></script>
+	<!-- endbower -->	
 </body>
 </html>

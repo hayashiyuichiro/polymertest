@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- bower:css -->
+	<!-- endbower -->
+	<style>
+	  google-map {
+    	height: 600px;
+  		}
+	</style>
+</head>
+<body>
+	<link rel="import" href="bower_components/google-map/google-map.html">
+	<link rel="import" href="components/my-styled-namecard/my-styled-namecard.html">
+	<!-- Use element -->
+	<google-map latitude="31.5230251" longitude="130.555796">
+		<google-map-marker latitude="31.5230251" longitude="130.555796"
+      title="Go Giants!">
+      </google-map-marker>
+  </google-map>
+
+ 	<my-styled-namecard my-name="hayashi"></my-styled-namecard>
+
+
+  <div>aaaa</div>
+	<!-- bower:js -->
+	<script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+	<script src="bower_components/web-animations-js/web-animations.min.js"></script>
+	<!-- endbower -->
+</body>
+</html>
